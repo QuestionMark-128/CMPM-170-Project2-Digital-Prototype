@@ -1,0 +1,1576 @@
+<REAPER_PROJECT 0.1 "7.82/win64" 1792413229 0
+  <NOTES 0 2
+  >
+  RIPPLE 0 0
+  GROUPOVERRIDE 0 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  TCPUIFLAGS 0
+  MIXERUIFLAGS 11 48 0
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1 0
+  VIDEO_CONFIG 0 0 65792
+  PANMODE 3
+  PANLAWFLAGS 3
+  CURSOR 0.5
+  ZOOM 112.06971791124168 0 0
+  VZOOMEX 5.15996599 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE "C:\Users\aiden\Desktop\audioswapthing.mov"
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 0 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  RENDER_TRIM 0.000001 0.000001 0 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    UE1GRggAAAAEAAAAAAgAAAIAAACAAAAAgAcAADgEAAAAAPBBAQAAAF8AAAAAAA==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 1760 880 1
+    SAMPLES "" "" "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0 ""
+    SPLDEF 3 440 "" 0 ""
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4 0
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0.5 0
+  SELECTION2 0.5 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 1
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_PANLAWFLAGS 3
+  MASTER_FX 1
+  MASTER_TRACKID {778C35F5-5EB5-4134-AD71-B348C2EA94DC}
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {2019C344-8ADE-4378-B459-68FD6B1B61FC}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {53AAD6D9-8C57-4C9E-98ED-CFC95C1BB3CF}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  RULERHEIGHT 86 86
+  RULERLANE 1 4 "" 0 -1 0
+  RULERLANE 2 8 "" 0 -1 0
+  MARKER 1 0 Start 8 0 1 R {91B2DC24-B45E-45B7-91D6-7B133BE9C66C} 0 1
+  MARKER 2 11.64 End 0 0 1 R {7D05811F-3112-4F18-B418-8359801E81A8} 0 1
+  <PROJBAY
+  >
+  <TRACK {2CD81E72-FCDD-48DC-BB96-93868FE3C41C}
+    NAME alley-cat-take-2
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {2CD81E72-FCDD-48DC-BB96-93868FE3C41C}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 11.64
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {41A2FD1F-783C-4CB2-B71F-23DC4A553B7F}
+      IID 2
+      NAME alley-cat-take-2.mkv
+      VOLPAN 1 0 1 -1
+      SOFFS 3.36
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {02A78225-A094-4280-876A-44CC90D9D392}
+      <SOURCE VIDEO
+        FILE "C:\Users\aiden\Downloads\alley-cat-take-2.mkv"
+      >
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {CF40B17C-2702-4B90-B2A0-584AB77787DD}
+      IID 66
+      NAME 01-alley-cat-take-2-MIDI
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AAE1C40D-A5FC-4024-807C-5F141F36AA09}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {74E8395E-F033-48CB-9DC5-9EF2D0DB9C06}
+        E 960 b0 7b 00
+        CCINTERP 32
+        CHASE_CC_TAKEOFFS 1
+        GUID {2A92E419-E6A9-41E6-8B80-80EB02699E0A}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+      >
+    >
+  >
+  <TRACK {0174A53C-FDCA-49E7-A5B3-5B8963B4308C}
+    NAME Movement
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 3.98107170553497 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0174A53C-FDCA-49E7-A5B3-5B8963B4308C}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.07
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4A9C956A-B46B-427A-8087-0EAC8E2DA2CF}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C2DF82CD-CE98-4DC3-8606-39B411EB8D4F}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.1105123879388
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {47C91FE3-FB09-4423-8FD9-30A355242607}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8B357502-377A-489F-B623-B7EEE9984C6A}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.14000000001397
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CA36AEB9-BC7C-4EC6-BD92-9098238844BA}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F544EFA2-68D3-4F13-9D4E-D82FFD48A3F1}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.47999999998137
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D5732966-2014-4497-9BE2-C0D18F51C2DD}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BAA29517-1203-41BB-8309-1819C22C5B9B}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.88156581134535
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {87F69746-03A9-44CE-8542-6D40804A696E}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3951A720-C3D0-47D9-9ECE-3FE3C523C3D2}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.1600000000326
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {60BAB5D2-2705-4CE1-8304-7D616AEA3F8E}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7DC6530E-FF86-4457-8697-33C7A2A2714D}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.92000000004191
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1.1 0 0.02389581200524 1 1 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4C6EFED1-5421-485C-A69D-7CC4EEDD71E0}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D39BDE2-DB6D-45DD-A7B6-6BBDE5FD3ED8}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.08131336164661
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.02389581200524 1 1 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F96AE57F-D6DF-40F6-9111-7F70AEEE3F13}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D20A204-9090-40E3-A0FE-377E4FE47AB3}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.5
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FD6B738D-E951-4D4B-BE5B-B022E5A5F4D8}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A846656D-18B9-4A0E-BED6-8F34B6EA28D6}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.05000000004657
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB47DDCD-410E-4344-8B78-1A1B26B8B93D}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E0EDA50E-00C1-4290-A0F7-62F0AC530239}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.26000000000931
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1.1 0 0.06520917361459 1 1 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0D166376-F179-4265-B97B-E881F4DD57E0}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4E7F607D-3242-427C-9D17-09965283423F}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.38000000000466
+      SNAPOFFS 0
+      LENGTH 0.18520917360994
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.06520917361459 1 1 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ABFCC71E-9ABC-442A-9F06-1056D233D8F4}
+      IID 3
+      NAME 370367__lilmati__step-on-dirt.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.10213776511435
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {689DA56C-845F-4478-974C-2F30A293F2AD}
+      <SOURCE WAVE
+        FILE "Media\370367__lilmati__step-on-dirt.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\370367__lilmati__step-on-dirt.wav"
+      >
+    >
+  >
+  <TRACK {ECFB3F29-2E99-4551-A529-14D7F0667F71}
+    NAME "Level Complete"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1.12168463191544 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {ECFB3F29-2E99-4551-A529-14D7F0667F71}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 10.48999999999069
+      SNAPOFFS 0
+      LENGTH 1.15000000000931
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2176AB53-F78D-478E-9FFF-0881061FABF5}
+      IID 18
+      NAME 391656__jeckkech__evolve.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 0.8782608695662 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {47E4A9ED-3542-4F68-AD67-E48CA3229F20}
+      <SOURCE WAVE
+        FILE "Media\391656__jeckkech__evolve.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\391656__jeckkech__evolve.wav"
+      >
+    >
+  >
+  <TRACK {4692C8DE-73D7-4636-9A5C-13F981DC931E}
+    NAME Jump
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1.0587290132869 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {4692C8DE-73D7-4636-9A5C-13F981DC931E}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.77000000001863
+      SNAPOFFS 0
+      LENGTH 0.15603174603175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E7000A66-B025-49CE-9657-C4037E8E3B4D}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {33068841-DAC4-4FE0-A411-816BD0CB9AF6}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.39000000001397
+      SNAPOFFS 0
+      LENGTH 0.15603174603175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {33E27DFB-C5B6-4822-9FB5-BF1E85B4B2D8}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1E2DA26B-DC9B-46F7-9DF9-77BE69D639CA}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.14000000001397
+      SNAPOFFS 0
+      LENGTH 0.15603174603174
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {22DCB51B-B7D6-489D-9466-B91EC7523A2E}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {338D3C0A-AE67-4036-A8A8-F8AC97EC32A5}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.78000000002794
+      SNAPOFFS 0
+      LENGTH 0.15603174603174
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2CDB8E77-EB37-43D1-8DDF-EF3D275B1A2D}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {85185235-FBEB-4C9B-A564-20D125C5AD1D}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 3.48999999999069
+      SNAPOFFS 0
+      LENGTH 0.15603174603174
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8566EE76-727F-4E13-A87A-B104DB26804A}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FA120A2E-3957-452A-BBDA-E038730C46C9}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.55000000004657
+      SNAPOFFS 0
+      LENGTH 0.15603174603175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {44708654-10E1-4A21-A25E-5A44596FB680}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0A34D90B-F719-4629-A093-DC0110784036}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.32999999995809
+      SNAPOFFS 0
+      LENGTH 0.15603174603175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {69791E95-B9B6-416C-A729-FDE31343747A}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D55D3A44-2857-4E41-B7C4-09F117A9CA9C}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.36999999999534
+      SNAPOFFS 0
+      LENGTH 0.15603174603175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EE0FD25E-F977-48C1-A946-0D9BB61D66C0}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D21AF06-9428-4A71-A65D-38C359BD3FCE}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.94999999995343
+      SNAPOFFS 0
+      LENGTH 0.15603174603175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {63F95FC8-2C99-491E-BBA0-A65C9C84933C}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {975FEB00-DD6C-4F07-8773-718AF85F13AF}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.31999999994878
+      SNAPOFFS 0
+      LENGTH 0.15603174603175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {80DAD4F8-2E26-468C-8939-FCC1A7305589}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {044891C9-D40A-4FBB-8108-F9949CEBB2C0}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.02000000001863
+      SNAPOFFS 0
+      LENGTH 0.15603174603175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {78809821-05FA-47C9-8C08-FCF9AE6B7CDB}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ED83F6E6-FDD2-4DCC-BB1A-A9D974C84232}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.38000000000466
+      SNAPOFFS 0
+      LENGTH 0.15603174603175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3346825C-A971-4FF3-A566-2E8B55E3ACC6}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2B131B1D-3E74-4FBA-9449-87244266525C}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.04000000003725
+      SNAPOFFS 0
+      LENGTH 0.15603174603175
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E4FFDBF1-CE5A-4C00-A09E-3EB132BE83FA}
+      IID 19
+      NAME 649725__duskbreaker__8bit-jump.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {105E7024-66B3-4EF8-910B-C495162F4809}
+      <SOURCE WAVE
+        FILE "Media\649725__duskbreaker__8bit-jump.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\649725__duskbreaker__8bit-jump.wav"
+      >
+    >
+  >
+  <TRACK {48636359-6FCD-4BBD-A2E0-FA033583094C}
+    NAME "Landing On Clothes"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 3.98107170553497 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {48636359-6FCD-4BBD-A2E0-FA033583094C}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.81999999994878
+      SNAPOFFS 0
+      LENGTH 0.13372662263279
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3740B9E7-C99E-42F7-BCE8-A9696A51A9FF}
+      IID 33
+      NAME 151238__owlstorm__hard-female-footstep-2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.09884141672859
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8CCC9D0E-1E5A-46DC-A36E-80CC50AE2873}
+      <SOURCE WAVE
+        FILE "Media\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+    >
+    <ITEM
+      POSITION 4.45999999996275
+      SNAPOFFS 0
+      LENGTH 0.13372662263279
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DA319995-1B54-4469-AE21-CEBE8B42B6E8}
+      IID 33
+      NAME 151238__owlstorm__hard-female-footstep-2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.09884141672859
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C53E593C-7DE4-4D0C-91AE-BBC2ACF06453}
+      <SOURCE WAVE
+        FILE "Media\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.06000000005588
+      SNAPOFFS 0
+      LENGTH 0.13372662263279
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F624A118-A8AF-445B-9C88-DA09E80D93A4}
+      IID 33
+      NAME 151238__owlstorm__hard-female-footstep-2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.09884141672859
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {27A34D82-22A2-40DA-88A7-3144D925668C}
+      <SOURCE WAVE
+        FILE "Media\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.21999999997206
+      SNAPOFFS 0
+      LENGTH 0.13372662263279
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F96725E3-CFCB-4A93-B45C-870B14E8C24C}
+      IID 33
+      NAME 151238__owlstorm__hard-female-footstep-2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.09884141672859
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E1F6A440-2E27-4C32-9C6F-3AE298A74293}
+      <SOURCE WAVE
+        FILE "Media\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.85999999998603
+      SNAPOFFS 0
+      LENGTH 0.13372662263279
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FF508F2C-6D2B-4288-86D0-B17A1A65D8E2}
+      IID 33
+      NAME 151238__owlstorm__hard-female-footstep-2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.09884141672859
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {664F4052-0BA3-4377-926B-0E254022C428}
+      <SOURCE WAVE
+        FILE "Media\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.15000000002328
+      SNAPOFFS 0
+      LENGTH 0.13372662263279
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D39ABAFD-492F-4FD4-B2AA-DDD8D2A4BED4}
+      IID 33
+      NAME 151238__owlstorm__hard-female-footstep-2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.09884141672859
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CFB8493B-6623-4DE9-ADB7-29EA581F08D5}
+      <SOURCE WAVE
+        FILE "Media\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+    >
+    <ITEM
+      POSITION 8.82999999995809
+      SNAPOFFS 0
+      LENGTH 0.13372662263279
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7180B482-60EC-492E-9DFA-75D167E50861}
+      IID 33
+      NAME 151238__owlstorm__hard-female-footstep-2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.09884141672859
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4D783EBE-A8B2-4DB5-A263-F19BBECD110F}
+      <SOURCE WAVE
+        FILE "Media\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.38000000000466
+      SNAPOFFS 0
+      LENGTH 0.13372662263279
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CD51BC74-23EA-4709-848B-1E6669518499}
+      IID 33
+      NAME 151238__owlstorm__hard-female-footstep-2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.09884141672859
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5A788C8D-99FB-4834-B8BB-EAD4345A2C57}
+      <SOURCE WAVE
+        FILE "Media\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.9100000000326
+      SNAPOFFS 0
+      LENGTH 0.13372662263279
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A24E4FA1-11DA-4AAD-A097-E211E430FC55}
+      IID 33
+      NAME 151238__owlstorm__hard-female-footstep-2.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.09884141672859
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9E1708A7-097A-4EFE-8AFD-005B6AF5FAD4}
+      <SOURCE WAVE
+        FILE "Media\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\151238__owlstorm__hard-female-footstep-2.wav"
+      >
+    >
+  >
+  <TRACK {16922EED-AD33-4A55-9ED5-DFA2481E3966}
+    NAME "Collect Mice"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1.12168463191544 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {16922EED-AD33-4A55-9ED5-DFA2481E3966}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.97999999998137
+      SNAPOFFS 0
+      LENGTH 0.44389964594246
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {59797283-1ABB-4739-AF64-426BDB8DCC86}
+      IID 45
+      NAME 781199__kenneth_cooney__acquire.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {381B2D96-7160-46B4-96AF-9B4DA4FBA65E}
+      <SOURCE WAVE
+        FILE "Media\781199__kenneth_cooney__acquire.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\781199__kenneth_cooney__acquire.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.38000000000466
+      SNAPOFFS 0
+      LENGTH 0.44389964594246
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {47E72B9E-EE37-424F-8F01-68298F17AC75}
+      IID 45
+      NAME 781199__kenneth_cooney__acquire.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6040B318-F135-4CD3-B17F-62194CB22440}
+      <SOURCE WAVE
+        FILE "Media\781199__kenneth_cooney__acquire.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\781199__kenneth_cooney__acquire.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.8399999999674
+      SNAPOFFS 0
+      LENGTH 0.44389964594246
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7E44E901-410D-4133-9CED-5E0C2E7988CA}
+      IID 45
+      NAME 781199__kenneth_cooney__acquire.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C0E931D4-37B1-4762-9B80-41AB8C302659}
+      <SOURCE WAVE
+        FILE "Media\781199__kenneth_cooney__acquire.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\781199__kenneth_cooney__acquire.wav"
+      >
+    >
+    <ITEM
+      POSITION 9.76000000000931
+      SNAPOFFS 0
+      LENGTH 0.44389964594246
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {40FBBD0E-6C6C-4C62-88C9-57F658F52EFD}
+      IID 45
+      NAME 781199__kenneth_cooney__acquire.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {83498798-84F8-4545-A7EC-9127AD4EA872}
+      <SOURCE WAVE
+        FILE "Media\781199__kenneth_cooney__acquire.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\781199__kenneth_cooney__acquire.wav"
+      >
+    >
+  >
+  <TRACK {8ACFDEA6-235D-43D7-8C89-AB406F614638}
+    NAME "Landing On Barrel"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 3.98107170553497 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8ACFDEA6-235D-43D7-8C89-AB406F614638}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0.95999999996275
+      SNAPOFFS 0
+      LENGTH 0.17830216351039
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {830426D2-E205-4223-B6F2-A5E959FC0298}
+      IID 52
+      NAME 620334__marb7e__footsteps_leather_wood_walk04.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9BB32E28-041A-416C-A974-3F4449EFCD37}
+      <SOURCE WAVE
+        FILE "Media\620334__marb7e__footsteps_leather_wood_walk04.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\620334__marb7e__footsteps_leather_wood_walk04.wav"
+      >
+    >
+    <ITEM
+      POSITION 1.98999999999069
+      SNAPOFFS 0
+      LENGTH 0.17830216351039
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2ACB946A-70A6-4B0C-9CCC-F9757C244A1A}
+      IID 52
+      NAME 620334__marb7e__footsteps_leather_wood_walk04.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B6456F9E-0356-4E3F-AA83-9AB8D1C4D704}
+      <SOURCE WAVE
+        FILE "Media\620334__marb7e__footsteps_leather_wood_walk04.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\620334__marb7e__footsteps_leather_wood_walk04.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.5963441649219
+      SNAPOFFS 0
+      LENGTH 0.17830216351039
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {02175AE1-15BE-41D1-9EDB-CE09005AAC82}
+      IID 52
+      NAME 620334__marb7e__footsteps_leather_wood_walk04.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {47838E41-78A8-48AB-AB77-FEE00F573F27}
+      <SOURCE WAVE
+        FILE "Media\620334__marb7e__footsteps_leather_wood_walk04.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\620334__marb7e__footsteps_leather_wood_walk04.wav"
+      >
+    >
+    <ITEM
+      POSITION 2.93999999994412
+      SNAPOFFS 0
+      LENGTH 0.17830216351039
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D3F2495A-D617-4213-B747-2ADC4F1A1C16}
+      IID 52
+      NAME 620334__marb7e__footsteps_leather_wood_walk04.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {248C34D7-30D0-4A1C-B02D-B010D8D97E9B}
+      <SOURCE WAVE
+        FILE "Media\620334__marb7e__footsteps_leather_wood_walk04.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\620334__marb7e__footsteps_leather_wood_walk04.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.56000000005588
+      SNAPOFFS 0
+      LENGTH 0.17830216351039
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7190120D-1C45-4333-B792-B6BDABF79DF9}
+      IID 52
+      NAME 620334__marb7e__footsteps_leather_wood_walk04.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {291C0A74-F205-4BA5-A308-46EB049F3C4B}
+      <SOURCE WAVE
+        FILE "Media\620334__marb7e__footsteps_leather_wood_walk04.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\620334__marb7e__footsteps_leather_wood_walk04.wav"
+      >
+    >
+  >
+  <TRACK {4BE5AB1D-2021-4779-A37F-7C11E2030075}
+    NAME "Window Open"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 3.98107170553497 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {4BE5AB1D-2021-4779-A37F-7C11E2030075}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.95999999996275
+      SNAPOFFS 0
+      LENGTH 0.29176877195514
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ED2B5837-0D25-43CD-BC3A-20D443BCE8CE}
+      IID 59
+      NAME 322068__inspectorj__opening-a-fizzy-bottle-b.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.20825251267182
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D7DD212-118F-4BBD-8116-D03AD4433A42}
+      <SOURCE WAVE
+        FILE "Media\322068__inspectorj__opening-a-fizzy-bottle-b.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\322068__inspectorj__opening-a-fizzy-bottle-b.wav"
+      >
+    >
+    <ITEM
+      POSITION 7.92000000004191
+      SNAPOFFS 0
+      LENGTH 0.29176877195514
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3D71B523-BC4B-413A-9906-8750EE8D08E8}
+      IID 59
+      NAME 322068__inspectorj__opening-a-fizzy-bottle-b.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0.20825251267182
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7C10F34C-4B29-4AA9-BD82-5BD44E9FB6DA}
+      <SOURCE WAVE
+        FILE "Media\322068__inspectorj__opening-a-fizzy-bottle-b.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\322068__inspectorj__opening-a-fizzy-bottle-b.wav"
+      >
+    >
+  >
+  <TRACK {BCF82CF2-F728-41A5-B723-10619F03753D}
+    NAME "Background Music"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.14550606486759 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BCF82CF2-F728-41A5-B723-10619F03753D}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 10.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {77494F65-588B-490A-BB19-866D9E936217}
+      IID 64
+      NAME 324088__volvion__8-bit-end-level.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {044744CF-662C-4792-AB32-7D68EC31CA70}
+      <SOURCE WAVE
+        FILE "Media\324088__volvion__8-bit-end-level.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\aiden\Desktop\audio swap files\324088__volvion__8-bit-end-level.wav"
+      >
+    >
+  >
+>
