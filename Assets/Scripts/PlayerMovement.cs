@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 using System.Linq;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,15 +10,20 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     private bool isMoving = false;
     public StampManager stampManager;
+    public TextMeshProUGUI diceText;
+    public TextMeshProUGUI movesText;
+    private bool hasRolled = false;
+    private int movesRemaining = 0;
 
     void Start()
     {
         UpdateHighlights();
+        UpdateUI();
     }
 
     void Update()
     {
-        if (isMoving)
+        if (isMoving || !hasRolled)
         {
             return;
         }
@@ -26,6 +32,26 @@ public class PlayerMovement : MonoBehaviour
         {
             HandleClick();
         }
+    }
+
+    public void RollDice()
+    {
+        if (hasRolled || isMoving)
+        {
+            return;
+        }
+
+        int diceRoll = Random.Range(1, 7);
+        movesRemaining = diceRoll;
+        hasRolled = true;
+
+        if (diceText != null)
+        {
+            diceText.text= "Dice: " + diceRoll;
+        }
+
+        UpdateUI();
+        UpdateHighlights();
     }
 
     void HandleClick()
@@ -67,12 +93,42 @@ public class PlayerMovement : MonoBehaviour
         currentLocation = destination;
         stampManager.TryAwardStamp(destination);
         isMoving = false;
+
+        movesRemaining--;
+        UpdateUI();
+
+        if (movesRemaining <= 0)
+        {
+            EndTurn();
+            yield break;
+        }
+        
+        if (currentLocation.connectedLocations.Count == 0)
+        {
+            EndTurn();
+            yield break;
+        }
+
         UpdateHighlights();
+    }
+
+    void EndTurn()
+    {
+        hasRolled = false;
+        movesRemaining = 0;
+
+        ClearHighlights();
+        UpdateUI();
     }
 
     void UpdateHighlights()
     {
         ClearHighlights();
+
+        if (!hasRolled || movesRemaining <= 0)
+        {
+            return;
+        }
 
         foreach (Location location in currentLocation.connectedLocations)
         {
@@ -92,6 +148,14 @@ public class PlayerMovement : MonoBehaviour
         foreach (LocationHighlight highlight in highlights)
         {
             highlight.SetHighlight(false);
+        }
+    }
+
+    void UpdateUI()
+    {
+        if (movesText != null)
+        {
+            movesText.text = "Moves Remaining: " + movesRemaining;
         }
     }
 }
