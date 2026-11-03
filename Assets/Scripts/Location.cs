@@ -6,4 +6,6 @@ public class Location : MonoBehaviour
     public List<Location> connectedLocations = new List<Location>();
 
     public bool isCity;
+
+    public bool hasGivenStamp = false;
 }

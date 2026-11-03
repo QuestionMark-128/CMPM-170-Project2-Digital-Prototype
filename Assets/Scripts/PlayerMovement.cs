@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public Location currentLocation;
     public float moveSpeed = 5f;
     private bool isMoving = false;
+    public StampManager stampManager;
 
     void Start()
     {
@@ -64,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
 
         transform.position = targetPosition;
         currentLocation = destination;
+        stampManager.TryAwardStamp(destination);
         isMoving = false;
         UpdateHighlights();
     }
