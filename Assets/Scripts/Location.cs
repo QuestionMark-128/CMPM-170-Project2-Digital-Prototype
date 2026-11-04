@@ -8,4 +8,10 @@ public class Location : MonoBehaviour
     public bool isCity;
 
     public bool hasGivenStamp = false;
+
+    public int region = 1; //added
+
+    public bool givesPassport = false; //added
+
+    public bool isCenterHub = false; //added
 }

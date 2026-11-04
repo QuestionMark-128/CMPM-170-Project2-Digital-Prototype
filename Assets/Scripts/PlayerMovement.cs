@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     private bool isMoving = false;
     public StampManager stampManager;
+    public bool hasPassport = false; //added
     public TextMeshProUGUI diceText;
     public TextMeshProUGUI movesText;
     private bool hasRolled = false;
@@ -65,16 +66,32 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Location clickedLocation = hit.collider.GetComponent<Location>();
+        Debug.Log("Clicked object: " + hit.collider.gameObject.name);
 
         if (clickedLocation == null)
         {
             return;
         }
 
-        if (currentLocation.connectedLocations.Contains(clickedLocation))
+        if (currentLocation.connectedLocations.Contains(clickedLocation) && CanMoveTo(clickedLocation))//added
         {
             StartCoroutine(MoveToLocation(clickedLocation));
         }
+    }
+
+    bool CanMoveTo(Location destination) //added
+    {
+        if (destination.isCenterHub)
+        {
+            return hasPassport;
+        }
+
+        if (currentLocation.isCenterHub)
+        {
+            return hasPassport;
+        }
+
+        return destination.region == currentLocation.region;
     }
 
     IEnumerator MoveToLocation(Location destination)
@@ -91,6 +108,13 @@ public class PlayerMovement : MonoBehaviour
 
         transform.position = targetPosition;
         currentLocation = destination;
+        Debug.Log("Player is now at: " + currentLocation.name);
+
+        if (destination.givesPassport)//added
+        {
+            hasPassport = true;
+            Debug.Log("You collected a passport!");
+        }
         stampManager.TryAwardStamp(destination);
         isMoving = false;
 
@@ -132,6 +156,10 @@ public class PlayerMovement : MonoBehaviour
 
         foreach (Location location in currentLocation.connectedLocations)
         {
+            if (!CanMoveTo(location))
+            {
+                continue;
+            }
             LocationHighlight highlight = location.GetComponent<LocationHighlight>();
 
             if (highlight != null)
