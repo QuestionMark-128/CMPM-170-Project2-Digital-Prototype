@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
@@ -13,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public bool hasPassport = false; //added
     public TextMeshProUGUI diceText;
     public TextMeshProUGUI movesText;
+    public TextMeshProUGUI passportMessage;
     private bool hasRolled = false;
     private int movesRemaining = 0;
 
@@ -48,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (diceText != null)
         {
-            diceText.text= "Dice: " + diceRoll;
+            diceText.text = "Dice: " + diceRoll;
         }
 
         UpdateUI();
@@ -114,6 +116,8 @@ public class PlayerMovement : MonoBehaviour
         {
             hasPassport = true;
             Debug.Log("You collected a passport!");
+
+            StartCoroutine(ShowPassportMessage());
         }
         stampManager.TryAwardStamp(destination);
         isMoving = false;
@@ -126,7 +130,7 @@ public class PlayerMovement : MonoBehaviour
             EndTurn();
             yield break;
         }
-        
+
         if (currentLocation.connectedLocations.Count == 0)
         {
             EndTurn();
@@ -184,6 +188,19 @@ public class PlayerMovement : MonoBehaviour
         if (movesText != null)
         {
             movesText.text = "Moves Remaining: " + movesRemaining;
+        }
+    }
+
+    IEnumerator ShowPassportMessage()
+    {
+        if (passportMessage != null)
+        {
+            passportMessage.text = "Passport Acquired!";
+            passportMessage.gameObject.SetActive(true);
+
+            yield return new WaitForSeconds(2f);
+
+            passportMessage.gameObject.SetActive(false);
         }
     }
 }
